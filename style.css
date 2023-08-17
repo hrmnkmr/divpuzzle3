@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.clearfix::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.red--box {
+  width: 400px;
+  height: 100px;
+  background: #ff0000
+}
+
+.white--box {
+  align-items: center;
+  position: relative;
+  justify-content:space-evenly;
+  left: 20px;
+  top: 20px;
+  background: #ffffff;
+  height: 60px;
+  width: 180px;  
+
+}
+
+.flexbox {
+  display: flex;
+  width: 180px; 
+}
+
+.box1 {
+  float:left;
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+  margin: 10px;
+  align-self: center;
+}
+
+
+.green--box {
+  width: 150px;
+  height: 250px;
+  background-color: #00ff51;
+  float: left;
+}
+
+.brown--box {
+  width: 250px;
+  height: 250px;
+  background-color: #8c2727;
+  float: left;
+}
+
+.yellow--box {
+  width: 400px;
+  height: 100px;
+  background-color: #ffd000;
+}
