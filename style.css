@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .clearfix::after {
-  content:"";
+  content: "";
   display: block;
   clear: both;
 }
@@ -15,32 +15,26 @@
 .white--box {
   align-items: center;
   position: relative;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   left: 20px;
   top: 20px;
   background: #ffffff;
   height: 60px;
-  width: 180px;  
-
+  width: 180px;
 }
 
 .flexbox {
   display: flex;
-  width: 180px; 
+  width: 180px;
+  height: 100%;
 }
 
 .box1 {
-  float:left;
   width: 40px;
   height: 40px;
   background: #a9004b;
-  position: absolute;
-  top: 10px;
-  left: 10px; 
   margin: 10px;
-  align-self: center;
 }
-
 
 .green--box {
   width: 150px;
@@ -54,6 +48,18 @@
   height: 250px;
   background-color: #8c2727;
   float: left;
+}
+
+.orange--box {
+  width: 140px;
+  height: 40px;
+  margin: 40px;
+  background: #ff863f;
+  border: 5px solid #ffffff;
+}
+
+.flexbox {
+  display: flex;
 }
 
 .yellow--box {
