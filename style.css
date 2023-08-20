@@ -9,14 +9,13 @@
 .red--box {
   width: 400px;
   height: 100px;
+  position: relative;
   background: #ff0000
 }
 
 .white--box {
-  align-items: center;
-  position: relative;
-  justify-content: space-evenly;
-  left: 20px;
+  position: absolute;
+  right: 20px;
   top: 20px;
   background: #ffffff;
   height: 60px;
@@ -33,7 +32,10 @@
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-right: 5px;
+
 }
 
 .green--box {
@@ -48,18 +50,18 @@
   height: 250px;
   background-color: #8c2727;
   float: left;
+  position: relative;
 }
 
 .orange--box {
   width: 140px;
   height: 40px;
-  margin: 40px;
   background: #ff863f;
   border: 5px solid #ffffff;
-}
-
-.flexbox {
-  display: flex;
+  margin: 10px;
+  left: 40px;
+  top: 40px;
+  position: relative;
 }
 
 .yellow--box {
