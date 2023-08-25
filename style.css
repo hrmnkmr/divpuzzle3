@@ -18,24 +18,30 @@
   right: 20px;
   top: 20px;
   background: #ffffff;
-  height: 60px;
-  width: 180px;
-}
-
-.flexbox {
-  display: flex;
-  width: 180px;
-  height: 100%;
+  padding: 10px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .box1 {
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding-right: 5px;
+  margin: 10px;
+  float: right;
+}
 
+.box1:first-of-type {
+  margin-right: 0px;
+}
+
+.box1:last-of-type {
+  margin-right: 0px;
+}
+
+.box1:nth-child(2){
+margin-right: 0px;
 }
 
 .green--box {
@@ -50,18 +56,23 @@
   height: 250px;
   background-color: #8c2727;
   float: left;
+}
+
+.blank--box{
   position: relative;
+  width: 250px;
+  height: 250px;
+  float: left;
+  top: 40px;
+  left: 40px;
 }
 
 .orange--box {
-  width: 140px;
-  height: 40px;
   background: #ff863f;
   border: 5px solid #ffffff;
+  width: 140px;
+  height: 40px;
   margin: 10px;
-  left: 40px;
-  top: 40px;
-  position: relative;
 }
 
 .yellow--box {
