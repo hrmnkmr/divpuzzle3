@@ -36,12 +36,6 @@
   margin-right: 10px;
 }
 
-.box1:last-of-type {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
-
 .green--box {
   width: 150px;
   height: 250px;
@@ -68,14 +62,11 @@
   border: 5px solid #ffffff;
   width: 140px;
   height: 40px;
-}
-
-.orange--box:nth-child(2){
   margin-top: 10px;
 }
 
-.orange--box:last-of-type {
-  margin-top: 10px;
+.orange--box:first-child{
+  margin-top: 0px;
 }
 
 .yellow--box {
